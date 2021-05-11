@@ -12,8 +12,9 @@ Several things which can be changed over the course of time according to the req
 
 ## INSTALLATION
 
-	Import the following python libraries for this module to work:
-	The versions mentioned below were used at the time of development; the recent versions of these libraries 		should support the code, but if not, then degrade the version to these specified versions
+Import the following python libraries for this module to work:
+The versions mentioned below were used at the time of development; the latest versions of these libraries should support the code, but if not, then degrade the version to these specified versions
+	
 	PIL/Pillow – 7.0.0 to facilitate reading and loading images. 
 	https://pypi.org/project/Pillow/
 
@@ -27,10 +28,10 @@ Several things which can be changed over the course of time according to the req
   
 ## METHOD
 
-	Input: Original Video frames which are directly fetched from INDOT, do not give processed frames, this might 		give some faulty result.
+Input: Original Video frames which are directly fetched from INDOT, do not give processed frames, this might give some faulty result.
 
-	Output: 2 possible return statements - 
-	"Camera Angle Change Detected" and
-	"Camera Angle Change not Detected"
+Output: 2 possible return statements - 
+"Camera Angle Change Detected" and
+"Camera Angle Change not Detected"
 	
-	This program can be run seperately to detect camera change, but in our main project it will be called 		internally from another python script. 
+This program can be run seperately to detect camera change, but in our main project it will be called internally from another python script. 
