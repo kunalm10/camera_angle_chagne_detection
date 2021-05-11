@@ -6,7 +6,7 @@ USING COMPUTER VISION TECHNIQUES TO SOLVE HIGHWAY INCIDENT DETECTION PROBLEMs
 
 Camera Angle Change Detection - This module is created in order to automatically detect any change in the camera angle. That change can occur due to several reasons like rotation of camera on its axis, zooming in zooming out, change in the pitch angle of the camera, etc.
 
-The algorith uses Imagehash funtion to create hash strings of two frames which are several frames apart (in our case this frame gap is 50, which can be changed according to the requirement). We use hamming distance to compare the two hash strings we generated from frames. This process goes on continously for whole video. Whenever the hamming distance goes above 20, the algorithm will result that camera angle is changed.
+The algorith uses Imagehash funtion to create hash strings of two frames which are several frames apart (in our case this frame gap is 50, which can be changed according to the requirement). I use hamming distance to compare the two hash strings I generated from frames. This process goes on continously for whole video. Whenever the hamming distance goes above 20, the algorithm will result that camera angle is changed.
 
 Several things which can be changed over the course of time according to the requirement of project can be frame gap difference and hamming distance threshold, this is pretty easy to do because these are just numeric integers.
 
