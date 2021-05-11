@@ -30,10 +30,6 @@ The versions mentioned below were used at the time of development; the latest ve
 
 Input: Original Video frames which are directly fetched from videos.
 
-Output: 2 possible return statements - 
-
-"Camera Angle Change Detected"
-
-"Camera Stable"
+Output: Returns the Flag value as True/False if "Camera Angle Change Detected"/"Camera Angle Change Not Detected" respectively.
 	
-This program can be run seperately to detect camera change, but in our main project it will be called internally from another python script. 
+This program can be run seperately to detect camera change, but in the INDOT project it will be called internally from another python script. 
