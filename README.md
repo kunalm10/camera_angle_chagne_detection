@@ -28,10 +28,12 @@ The versions mentioned below were used at the time of development; the latest ve
   
 ## METHOD
 
-Input: Original Video frames which are directly fetched from INDOT, do not give processed frames, this might give some faulty result.
+Input: Original Video frames which are directly fetched from videos.
 
 Output: 2 possible return statements - 
+
 "Camera Angle Change Detected"
+
 "Camera Stable"
 	
 This program can be run seperately to detect camera change, but in our main project it will be called internally from another python script. 
