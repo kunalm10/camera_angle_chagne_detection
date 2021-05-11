@@ -27,6 +27,11 @@ The versions mentioned below were used at the time of development; the latest ve
 	https://pypi.org/project/numpy/
   
 ## METHOD
+### main.py
+This modules calls "camera_angle_change_detection.py" functions and passes the required video frames for it to work.
+
+### camera_angle_change_detection.py
+This modules takes in a frame converts it to grayscale. It also crops the frame and then take out hash values of frames to see if the frame angle is changed or not.
 
 Input: Original Video frames which are directly fetched from videos.
 
