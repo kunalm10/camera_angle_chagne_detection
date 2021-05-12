@@ -1,4 +1,4 @@
-# camera_angle_chagne_detection
+# camera_angle_change_detection
 
 USING COMPUTER VISION TECHNIQUES TO SOLVE HIGHWAY INCIDENT DETECTION PROBLEMs
 
